@@ -11,6 +11,7 @@ import rx.Observable;
 import rx.Subscriber;
 import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
+import rx.functions.Action1;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+/*      // The long way to "Hello, world!"
 
-        // The long way to "Hello, world!"
         Observable<String> myObservable = Observable.create(
                 new Observable.OnSubscribe<String>() {
                     @Override
@@ -47,6 +48,16 @@ public class MainActivity extends AppCompatActivity {
         // Outputs "Hello, world!"
         myObservable.subscribe(mySubscriber);
 
+*/
 
+        // A simpler way to "Hello, world".
+        // Outputs "Hello, world!"
+        Observable.just("Hello, world!")
+                .subscribe(new Action1<String>() {
+                    @Override
+                    public void call(String s) {
+                        System.out.println(s);
+                    }
+                });
     }
 }
