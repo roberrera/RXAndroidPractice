@@ -1,4 +1,4 @@
-package com.roberterrera.rxjavapractice;
+package com.roberterrera.rxandroidpractice;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

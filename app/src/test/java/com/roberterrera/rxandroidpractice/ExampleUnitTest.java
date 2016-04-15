@@ -1,4 +1,4 @@
-package com.roberterrera.rxjavapractice;
+package com.roberterrera.rxandroidpractice;
 
 import org.junit.Test;
 
