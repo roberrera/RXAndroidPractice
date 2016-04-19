@@ -1,4 +1,4 @@
-package com.roberterrera.rxandroidpractice;
+package com.roberterrera.rxjavapractice;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

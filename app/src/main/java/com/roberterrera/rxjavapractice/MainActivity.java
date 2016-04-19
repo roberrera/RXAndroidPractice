@@ -1,16 +1,9 @@
-package com.roberterrera.rxandroidpractice;
+package com.roberterrera.rxjavapractice;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.Toast;
-
-import java.util.Observer;
+import android.support.v7.app.AppCompatActivity;
 
 import rx.Observable;
-import rx.Subscriber;
-import rx.Subscription;
-import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;
 
 public class MainActivity extends AppCompatActivity {

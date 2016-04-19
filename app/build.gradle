@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-        applicationId "com.roberterrera.rxandroidpractice"
+        applicationId "com.roberterrera.rxjavapractice"
         minSdkVersion 19
         targetSdkVersion 23
         versionCode 1
